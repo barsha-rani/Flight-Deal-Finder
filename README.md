@@ -1,12 +1,5 @@
 # Flight-Deal-Finder
 
-├─ main.py                # Entry point (IATA enrichment demo)
-├─ data_manager.py        # Abstraction around your data source (e.g., Sheety/Sheets/DB)   [expected]
-├─ flight_search.py       # IATA lookup & (later) fare search logic                        [expected]
-├─ flight_data.py         # (later) Normalize API response into domain objects             [expected]
-├─ notification_manager.py# (later) Email/SMS/Slack notifications                          [expected]
-└─ .env                   # Environment variables (API keys, endpoints)
-
 A small Python utility that reads a destinations sheet, enriches it with IATA airport codes, and prepares the data for downstream flight‑deal workflows (e.g., price checks, alerts). It currently demonstrates the IATA code enrichment path using a FlightSearch service and a DataManager abstraction for your data source.
 
 Loads destination rows (city, iataCode, lowestPrice, id).
