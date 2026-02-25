@@ -1,0 +1,17 @@
+{
+    "SHEETY_AUTH_TOKEN": "Authorization: Basic YWRtaW46UGFzc3cwcmQ=",
+    "flight_search_base_url": "https://test.api.amadeus.com/v1/shopping/",
+    "flight_token_endpoint": "https://test.api.amadeus.com/v1/security/oauth2/token",
+    "flight_search_api_key": "FCGiewAny05fdi8OZIl7Xew02DFOmaoI",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "client_id": "FCGiewAny05fdi8OZIl7Xew02DFOmaoI",
+    "client_secret": "8XjrLnmOcGq4pLmk",
+    "grant_type": "client_credentials",
+    "SHEETY_AUTH": {
+        "Content-Type":"application/json",
+        "Authorization":"Basic YWRtaW46UGFzc3cwcmQ="
+    },
+    "IATA_city_search_url": "https://test.api.amadeus.com/v1/"
+    
+}
+ 
